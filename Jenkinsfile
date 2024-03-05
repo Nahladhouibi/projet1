@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/nahladhouibi/angular-projet.git'
+                git 'https://github.com/nahladhouibi/angular-projet1.git'
             }
         }
 
