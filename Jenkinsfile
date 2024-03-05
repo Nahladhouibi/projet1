@@ -3,11 +3,11 @@ pipeline {
 
     environment {
         // Define environment variables, including tool versions and Docker image tag
-        MVN_HOME = tool 'maven-3.9.4'
-        NODEJS_HOME = tool 'NodeJS'
-        ANGULAR_CLI_HOME = tool 'AngularCLI'
-        DOCKER_HOME = tool 'MyDocker'
-        DOCKER_IMAGE_TAG = "angularapp:${env.BUILD_NUMBER}"
+       // MVN_HOME = tool 'maven-3.9.6'
+       // NODEJS_HOME = tool 'NodeJS'
+       // ANGULAR_CLI_HOME = tool 'AngularCLI'
+       // DOCKER_HOME = tool 'MyDocker'
+       // DOCKER_IMAGE_TAG = "angularapp:${env.BUILD_NUMBER}"
     }
 
     stages {
